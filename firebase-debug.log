@@ -1,0 +1,48 @@
+[debug] [2021-06-12T22:35:11.455Z] ----------------------------------------------------------------------
+[debug] [2021-06-12T22:35:11.458Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hrithika\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-12T22:35:11.459Z] CLI Version:   9.12.1
+[debug] [2021-06-12T22:35:11.459Z] Platform:      win32
+[debug] [2021-06-12T22:35:11.460Z] Node Version:  v14.15.4
+[debug] [2021-06-12T22:35:11.461Z] Time:          Sun Jun 13 2021 04:05:11 GMT+0530 (India Standard Time)
+[debug] [2021-06-12T22:35:11.462Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-12T22:35:11.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-12T22:35:11.472Z] > authorizing via signed-in user (hrithikasarkar1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\covid\covid-19-tracker
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using covid-19-tracker-3a0bb. 
+[debug] [2021-06-12T22:35:26.087Z] > refreshing access token with scopes: []
+[debug] [2021-06-12T22:35:26.088Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-12T22:35:26.349Z] <<< HTTP RESPONSE 200 {"date":"Sat, 12 Jun 2021 22:35:29 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-12T22:35:26.366Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-3a0bb [none]
+[debug] [2021-06-12T22:35:26.809Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-3a0bb 200
+[debug] [2021-06-12T22:35:26.809Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/covid-19-tracker-3a0bb {"projectId":"covid-19-tracker-3a0bb","projectNumber":"20160706616","displayName":"Covid 19 Tracker","name":"projects/covid-19-tracker-3a0bb","resources":{"hostingSite":"covid-19-tracker-3a0bb"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
