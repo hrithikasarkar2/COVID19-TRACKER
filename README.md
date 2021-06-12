@@ -1,12 +1,14 @@
-Covid-19 Tracker App
+# Covid-19 Tracker App
 This Project is a beginner friendly project I built using React. Some key Aspects:
 
-Shows Live Cases, Recoveries, Deaths (clickable tabs)
-Shows Worldwide cases and Country Based cases
-Line Chart shows fluctuations over days, hover around to see exact figures
-Clickable Markers on Map show Country stats
-Deployed live on https://covid-19-tracker-3a0bb.web.app Check out!
+**Shows Live Cases, Recoveries, Deaths (clickable tabs)
+**Shows Worldwide cases and Country Based cases
+**Line Chart shows fluctuations over days, hover around to see exact figures
+**Clickable Markers on Map show Country stats
+**Deployed live on https://covid-19-tracker-3a0bb.web.app Check out!
 ![image](https://user-images.githubusercontent.com/66898807/121790916-0329bd00-cc02-11eb-938e-64b36cc555ad.png)
+
+Deployed live on https://covid-19-tracker-3a0bb.web.app/
 
 # Getting Started with Create React App
 
